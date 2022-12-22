@@ -122,6 +122,7 @@ import { AcaFolderRulesModule } from '@alfresco/aca-folder-rules';
 import { TagsColumnComponent } from './components/dl-custom-components/tags-column/tags-column.component';
 import { UserInfoComponent } from './components/common/user-info/user-info.component';
 import { ContentManagementService } from './services/content-management.service';
+import { ResetPasswordModule } from './components/reset-password/reset-password.module';
 
 registerLocaleData(localeFr);
 registerLocaleData(localeDe);
@@ -153,6 +154,7 @@ registerLocaleData(localeSv);
     SharedModule,
     MaterialModule,
     AppStoreModule,
+    ResetPasswordModule,
     AppCommonModule,
     AppLayoutModule,
     DirectivesModule,

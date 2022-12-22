@@ -83,6 +83,13 @@ $defaults: (
   --theme-datetimepicker-cell-background: $datetimepicker-cell-background-color,
   --theme-datetimepicker-cell-focus-border: $datetimepicker-cell-focus-border-color,
   --theme-datetimepicker-cell-focus-background: $datetimepicker-cell-focus-background-color
+  --theme-reset-password-title-color: #212121,
+  --theme-reset-password-label-color: rgba(33, 35, 40, 0.7),
+  --theme-reset-password-input-background-color: $grey-text-background,
+  --theme-reset-password-button-background-color: $blue-save-button-background,
+  --theme-reset-password-dialog-border-color: $grey-background,
+  --theme-reset-password-dialog-shadow-color: rgba(33, 35, 40, 0.06),
+  --theme-reset-password-error-color: red,
 );
 
 // propagates SCSS variables into the CSS variables scope
