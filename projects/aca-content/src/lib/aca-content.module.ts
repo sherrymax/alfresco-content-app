@@ -301,7 +301,8 @@ export class ContentServiceExtensionModule {
       'app.canShowLogout': rules.canShowLogout,
       'app.isContentServiceEnabled': rules.isContentServiceEnabled,
       'app.isUploadSupported': rules.isUploadSupported,
-      'app.canCreateLibrary': rules.canCreateLibrary
+      'app.canCreateLibrary': rules.canCreateLibrary,
+      'app.isSearchSupported': rules.isSearchSupported
     });
   }
 }
