@@ -15,8 +15,8 @@
         "createDefaultProgram": true
       },
       "plugins": [
-        "eslint-plugin-rxjs",
-        "eslint-plugin-unicorn"
+        "rxjs",
+        "unicorn"
       ],
       "rules": {
         "@angular-eslint/component-selector": [

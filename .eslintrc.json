@@ -17,8 +17,8 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "plugins": [
-        "eslint-plugin-rxjs",
-        "eslint-plugin-unicorn",
+        "rxjs",
+        "unicorn",
         "prettier",
         "ban"
       ],
